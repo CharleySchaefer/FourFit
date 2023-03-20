@@ -1,0 +1,8 @@
+\documentclass{article}
+
+\begin{document}
+\title{Documentation for Fourier Series Fitting Code}
+\maketitle
+This code uses the \texttt{optim} package to fit a Fourier series to some noisy data. The first three terms of the Fourier series are used to define the function to fit. The residual function is defined as the difference between the data and the fitted function. The initial guess for the parameters is set to [0, 1, 1, 1, 1]. The fitting is performed using the \texttt{lsqnonlin} function with options to suppress output. The goodness of fit is calculated using the sum of squared errors and the total sum of squares. The standard error, confidence interval, and p-value for each parameter are calculated. The data and the fit are plotted, and the results are displayed as text in the figure.
+
+\end{document}
