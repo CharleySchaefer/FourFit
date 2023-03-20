@@ -15,7 +15,8 @@ To get started with the FourFit program, you will need to have Octave or MATLAB 
 ## Usage
 
 To use the FourFit program, simply run the FourFit.m script in Octave/MATLAB. You can adjust the number of Fourier terms and the range of the input data by modifying the variables n_terms, x_min, and x_max in the script.
-Contributing
+
+## Contributing
 
 We welcome contributions to the FourFit project from the academic research community. If you would like to contribute to the project, please fork this GitHub repository and submit a pull request with your changes.
 
